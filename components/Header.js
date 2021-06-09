@@ -16,11 +16,11 @@ const Header = () => {
     <div className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
       <div className="flex  justify-evenly max-w-2xl">
       <HeaderItem title='HOME' Icon={HomeIcon} />
-      <HeaderItem title='HOME' Icon={BadgeCheckIcon} />
-      <HeaderItem title='HOME' Icon={LightningBoltIcon} />
-      <HeaderItem title='HOME' Icon={CollectionIcon} />
-      <HeaderItem title='HOME' Icon={UserIcon} />
-      <HeaderItem title='HOME' Icon={SearchIcon} />
+      <HeaderItem title='Subscribe' Icon={BadgeCheckIcon} />
+      <HeaderItem title='Boost' Icon={LightningBoltIcon} />
+      <HeaderItem title='Collection' Icon={CollectionIcon} />
+      <HeaderItem title='User' Icon={UserIcon} />
+      <HeaderItem title='Search' Icon={SearchIcon} />
       </div>
       <Image
         className="object-contain"

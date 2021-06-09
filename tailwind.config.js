@@ -9,8 +9,7 @@ module.exports = {
       textColor: ['active'],
       animation: ['group-hover'],
       padding: ['last'],
-
-
+      userSelect: ['hover', 'focus'],
     },
   },
   plugins: [
